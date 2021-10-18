@@ -17,3 +17,19 @@ App (Parent Component)
 
 Passes Data from a Parent Component to a Child Component 
 It's Goal is to Cutomize or Configure A Child Component
+
+
+```js
+const App = () => {
+  return (
+    <div className="ui container comments">
+      <ApprovalCard>
+        <CommentDetail   //this becomes a prop
+          author="Sam"
+          timeAgo="Today at 4:45PM"
+          comment="Nice post"
+          image={faker.image.avatar()}
+        />
+      </ApprovalCard>
+
+```
