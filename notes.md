@@ -58,3 +58,9 @@ Class Components
 Which One To Choose?
   Companies with established projects are using Class based components 
   Companies with newer projects may be using Class based components or Function based components
+
+SeasonsApp Challenges
+  Need to get the users physical location 
+  Need to determine the current month
+  Need to change text and styling based on Location + Month
+  
